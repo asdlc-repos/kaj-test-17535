@@ -1,0 +1,11 @@
+apiVersion: openchoreo.dev/v1alpha1
+metadata:
+  name: leave-api
+
+endpoints:
+  - name: http
+    type: REST
+    port: 9090
+    basePath: /
+    visibility:
+      - external
